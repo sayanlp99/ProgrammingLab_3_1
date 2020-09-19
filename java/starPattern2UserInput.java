@@ -1,5 +1,4 @@
 import java.util.Scanner;
-
 class starPatternTwo{
 	public static void main(String[] args) {
 		int rows = 0;
@@ -23,6 +22,7 @@ class starPatternTwo{
 		            }
 		            System.out.println("");
 		        }
+		        break;
 		    }
 		}
 	}
