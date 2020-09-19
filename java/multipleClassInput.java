@@ -1,5 +1,4 @@
 import java.util.*;
-
 class addTwoNumber{
 	int sum, x , y;
 	Scanner obj = new Scanner(System.in);
@@ -14,7 +13,6 @@ class addTwoNumber{
 		System.out.println("Sum :" + sum);
 	}
 }
-
 class addTwoNumberMain{
 	public static void main(String[] args) {
 		addTwoNumber n = new addTwoNumber();
