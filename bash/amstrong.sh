@@ -11,7 +11,7 @@ item=`expr $item / 10`
 done
 if [ $sum -eq $num ]
 then
-echo "$num is an Amstrong Number"
+echo "$num is an Armstrong Number"
 else
-echo "$num is not an Amstrong Number"
+echo "$num is not an Armstrong Number"
 fi
