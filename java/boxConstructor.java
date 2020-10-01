@@ -1,7 +1,7 @@
 import java.util.*;
 class box{
 	int height, width, length, volume;
-	void setVal(int h, int w, int l){
+	public box(int h, int w, int l){
 		length = l;
         width = w;
         height = h;
@@ -13,7 +13,6 @@ class box{
 class computeVolume{
 	public static void main(String[] args) {
 		int hi, wi, le;
-		box n = new box();
 		Scanner obj = new Scanner(System.in);
 		System.out.println("Enter following to Calculate Volume: ");
 		System.out.print("Height: ");
@@ -22,7 +21,7 @@ class computeVolume{
 		wi = obj.nextInt();
 		System.out.print("Length: ");
 		le = obj.nextInt();
-		n.setVal(hi, wi, le);
+		box n = new box(hi, wi, le);
 		n.calculateVolume();
 		System.out.println("Volume is " + n.volume);
 	}
