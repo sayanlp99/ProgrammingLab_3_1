@@ -1,13 +1,13 @@
 import java.util.*;
 class box{
 	int height, width, length, volume;
-	void calculateVolume(){
-		volume = height * width * length;
-	}
 	void setVal(int h, int w, int l){
 		length = l;
         width = w;
         height = h;
+	}
+	void calculateVolume(){
+		volume = height * width * length;
 	}
 }
 class computeVolume{
