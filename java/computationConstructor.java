@@ -1,10 +1,10 @@
 import java.util.*;
 class operation{
 	int num_one, num_two, num_res;
-  public operation(int one, int two){
-    num_one = one;
-    num_two = two;
-  }
+	public operation(int one, int two){
+		num_one = one;
+		num_two = two;
+	}
 	void addition(){
 		num_res = num_one + num_two;
 	}
